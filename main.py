@@ -3,7 +3,7 @@ pd.DataFrame.iteritems = pd.DataFrame.items
 import numpy as np
 #import plotly.express as px
 import streamlit as st
-from streamlit_extras.add_vertical_space import add_vertical_space
+#from streamlit_extras.add_vertical_space import add_vertical_space
 import matplotlib.pyplot as plt
 from datetime import datetime
 
