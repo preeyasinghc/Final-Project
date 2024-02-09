@@ -7,13 +7,14 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from datetime import datetime
 
+
+
 # Displaying an image from a URL
-image_url = "https://www.pinterest.co.uk/pin/454933999876263451/visual-search/?x=16&y=16&w=414&h=302&cropSource=6&surfaceType=flashlight"
+#image_url = "https://www.pinterest.co.uk/pin/454933999876263451/visual-search/?x=16&y=16&w=414&h=302&cropSource=6&surfaceType=flashlight"
 #image_url = "https://static.appflow.ai/images/blog/ee40aedc-4b8a-4bd2-8af5-58f5e2cf3395.png" 
 #st.image(image_url, caption="Customer App Subscription", use_column_width=True)
 
 
-#st.title('Customer App Subscription Prediction Model')
 
 # Load the CSV file
 file_path = "output.csv"
@@ -21,6 +22,7 @@ final_results_df = pd.read_csv('output.csv')
 
 # Streamlit App
 st.title("Enrollment Prediction Results")
+
 
 # Dropdown for 'enrolled' column
 #selected_enrolled = st.selectbox("Select 'enrolled' value:", final_results_df['enrolled'].unique())
